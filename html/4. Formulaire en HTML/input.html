@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form
+      action="http://localhost:3000"
+      method="POST"
+    >
+      <label for="firstName">Prénom</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+        placeholder="Renseigner un prénom"
+      />
+
+      <fieldset>
+        <legend>Êtes-vous majeur ?</legend>
+
+        <div>
+          <input
+            id="ageYes"
+            type="radio"
+            name="age"
+            value="yes"
+          />
+          <label for="ageYes">Oui</label>
+        </div>
+
+        <div>
+          <input
+            id="ageNo"
+            type="radio"
+            name="age"
+            value="no"
+          />
+          <label for="ageNo">Non</label>
+        </div>
+      </fieldset>
+
+      <input type="submit" value="Soumettre" />
+    </form>
+  </body>
+</html>
