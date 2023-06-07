@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -13,16 +13,22 @@
     <title>Document</title>
   </head>
   <body>
-    <form action="localhost:3000" method="POST">
-      <label>Description</label>
+    <form
+      action="http://localhost:3000"
+      method="POST"
+    >
+      <label for="description">Description</label>
+
       <textarea
         id="description"
         name="description"
         placeholder="Renseigner une description"
-        rows="3"
+        rows="5"
         cols="50"
         required
       ></textarea>
+
+      <button type="submit">SUBMIT</button>
     </form>
   </body>
 </html>
