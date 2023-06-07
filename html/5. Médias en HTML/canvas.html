@@ -11,6 +11,37 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Document</title>
+
+    <style>
+      canvas {
+        border: 2px solid red;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <canvas
+      id="canvas"
+      width="400"
+      height="200"
+    ></canvas>
+
+    <script>
+      // sélectionner le canvas
+      const canvas =
+        document.getElementById("canvas");
+      // déclarer la zone de dessin 2D
+      const ctx = canvas.getContext("2d");
+
+      // paramètres du texte
+      ctx.font = "bold 20px Cantarell";
+      ctx.fillStyle = "red";
+
+      // dessiner un texte
+      ctx.fillText(
+        "Apprendre HTML de ZÉRO",
+        80,
+        100
+      );
+    </script>
+  </body>
 </html>
