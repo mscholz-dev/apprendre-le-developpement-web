@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- aria-label -->
+    <button aria-label="Fermer la fenêtre modale">
+      &#x2715;
+    </button>
+
+    <!-- aria-labelledby -->
+    <h2 id="section-title">Section principale</h2>
+    <section aria-labelledby="section-title">
+      <!-- Contenu de la section -->
+      <p>Je suis un paragraphe de la section</p>
+    </section>
+
+    <!-- aria-describedby -->
+    <img
+      src="./public/500.webp"
+      alt="Une belle image orange"
+      aria-describedby="image-description"
+    />
+    <p id="image-description">
+      Une belle image orange.
+    </p>
+  </body>
+</html>
