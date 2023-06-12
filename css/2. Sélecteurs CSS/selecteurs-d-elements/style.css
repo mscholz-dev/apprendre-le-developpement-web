@@ -1,0 +1,21 @@
+/* décommenter pour voir l'ordre de priorité */
+/* #paragraph {
+  color: purple;
+} */
+
+* {
+  color: red;
+}
+
+p {
+  color: green;
+}
+
+.paragraph {
+  color: blue;
+}
+
+/* commenter pour voir l'ordre de priorité */
+#paragraph {
+  color: purple;
+}

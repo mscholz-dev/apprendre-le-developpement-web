@@ -1,0 +1,24 @@
+[for] {
+  color: blue;
+}
+
+[for="Morgan"] {
+  color: red;
+}
+
+[for^="Mi"] {
+  color: green;
+}
+
+[for$="dre"] {
+  color: purple;
+}
+
+[for*="ll"] {
+  color: orange;
+}
+
+/* changer la valeur en : Morgan */
+[for~="Giulian"] {
+  color: brown;
+}
