@@ -1,0 +1,22 @@
+:root {
+  --bg-color: rgb(177, 235, 182);
+  --font-color: rgb(105, 12, 12);
+
+  --primary-font: "Arial";
+  --secondary-font: "Courier New";
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--font-color);
+  font-family: var(--secondary-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font);
+}

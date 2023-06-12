@@ -1,0 +1,28 @@
+/* variables css */
+:root {
+  --light-mode-bg-color: white;
+  --dark-mode-bg-color: black;
+
+  --light-mode-font-color: black;
+  --dark-mode-font-color: white;
+}
+
+/* style par défaut */
+main {
+  background: var(--light-mode-bg-color);
+  color: var(--light-mode-font-color);
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* ajouter le curseur "pointer" */
+label,
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+/* mettre en dark mode si la checkbox est cochée */
+#darkMode:checked + main {
+  background: var(--dark-mode-bg-color);
+  color: var(--dark-mode-font-color);
+}
