@@ -1,0 +1,23 @@
+:root {
+  /* rouge prédéfini */
+  --red-predefined: red;
+
+  /* rouge RGB */
+  --red-rgb: rgb(255, 0, 0);
+
+  /* rouge RGBA */
+  --red-rgba: rgba(255, 0, 0, 0.5);
+
+  /* rouge hexadécimal */
+  --red-hexadecimal: #ff0000;
+  /* avec opacité */
+  --red-hexadecimal-a: #ff000088;
+
+  /* rouge HSL (Hue Saturation Lightness) */
+  --red-hsl: hsl(0, 100%, 50%);
+}
+
+.red-opacity {
+  color: red;
+  opacity: 0.5;
+}

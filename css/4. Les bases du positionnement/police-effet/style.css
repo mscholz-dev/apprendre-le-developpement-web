@@ -1,0 +1,40 @@
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-letter-spacing {
+  letter-spacing: 2px;
+}
+
+.text-rotate {
+  transform: rotate(-45deg);
+}
+
+.text-highlight {
+  display: inline;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(0, 255, 49, 1) 100%
+  );
+  background-clip: text;
+  /* pour Chrome et Edge */
+  -webkit-background-clip: text;
+  color: transparent;
+}

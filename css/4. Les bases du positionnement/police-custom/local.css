@@ -1,0 +1,17 @@
+/* importation d'une police en local */
+@font-face {
+  /* nom de la police */
+  font-family: "Butcherman";
+  /* chemin et format de la police */
+  src: url("../public/Butcherman-Regular.ttf")
+    format("truetype");
+}
+
+:root {
+  /* variabliser + ajouter une police de secours */
+  --primary-font: Butcherman, cursive;
+}
+
+body {
+  font-family: var(--primary-font);
+}

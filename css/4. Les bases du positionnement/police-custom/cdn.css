@@ -1,0 +1,11 @@
+/* importer la police à partir d'un CDN */
+@import url("https://fonts.googleapis.com/css2?family=Butcherman&display=swap");
+
+:root {
+  /* variabliser + ajouter une police de secours */
+  --primary-font: Butcherman, cursive;
+}
+
+body {
+  font-family: var(--primary-font);
+}
