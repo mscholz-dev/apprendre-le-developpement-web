@@ -1,0 +1,11 @@
+.resizable,
+.not-resizable {
+  background: grey;
+  height: 32px;
+  margin-top: 24px;
+  width: 200px;
+}
+
+.resizable {
+  display: inline-block;
+}

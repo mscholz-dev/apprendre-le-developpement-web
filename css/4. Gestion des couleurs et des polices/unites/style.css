@@ -1,0 +1,38 @@
+html {
+  font-size: 24px;
+}
+
+span {
+  background: white;
+  position: fixed;
+  right: 12px;
+}
+
+div {
+  height: 100vh;
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.em {
+  /* 2x la taille de l'élément parent */
+  font-size: 2em;
+}
+
+.rem {
+  /* 2x la taille de l'élément racine (HTML) */
+  /* 48px */
+  font-size: 2rem;
+}
+
+.first {
+  background: red;
+}
+
+.second {
+  background: green;
+}
